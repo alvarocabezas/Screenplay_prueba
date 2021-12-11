@@ -1,0 +1,267 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/all.min.css">
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/v4-shims.min.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" type="text/css" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.css">
+<link rel="stylesheet" type="text/css" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js"></script>
+<!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">
+                <span class="projecttitle">Proyecto Prueba</span>
+                <span class="projectsubtitle"></span>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="4f0436dba100a1cb2e919edce2c4576415df1cb136a45147c390c55f60258587.html">Technical Project</a></span>
+                > <span class="truncate-60"><a
+                    href="74b2a9810ba30b23e4ca12578de89cbed70088973ee499041354c3c7df8d3f45.html">registration in the system </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 11-12-2021 16:10</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Technical Project </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                As a user, I want to enter the Utest system and register
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="b04234a28e42a64153a8c412aa1654bcf3f75a6ca0e81a2403749f8d279c22ce.html">Scenari1
+                                    (tag)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="8e3b9bd5eba0a2d944ce7d2a73335e57289cd25f71e556e1618e946dc87d7ec9.html">Stories
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="test-case-title">
+                                <span class="success-color">registration in the system
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="2872c61e40fcc68c942f51b3d5d749fea56a71d43ba11b3ec7b785fde514b831.png" title=" Given that Alvaro wants to enter the user registration url" width="1366"/>
+                <img src="2872c61e40fcc68c942f51b3d5d749fea56a71d43ba11b3ec7b785fde514b831.png" title="  open up" width="1366"/>
+                <img src="2872c61e40fcc68c942f51b3d5d749fea56a71d43ba11b3ec7b785fde514b831.png" title="  opens the Utest page" width="1366"/>
+                <img src="2872c61e40fcc68c942f51b3d5d749fea56a71d43ba11b3ec7b785fde514b831.png" title="  open up (completed)" width="1366"/>
+                <img src="2872c61e40fcc68c942f51b3d5d749fea56a71d43ba11b3ec7b785fde514b831.png" title=" Given that Alvaro wants to enter the user registration url (completed)" width="1366"/>
+                <img src="f0708cacc248cf2954d38c5f484ea73f5d0dfde425429a488364077af1659003.png" title=" When enter all the appropriate data for user registration on the Utest platform
+| name | last_name | email | birth_month | birth_day | birth_year | languages | city | code_postal | country | computer | computer_version | computer_language | password |
+| Alvaro Israel | Cabezas Rios | aicabezas12322699@gmail.com | May | 4 | 2000 | spanish | Bogot&aacute; | 111121 | Colombia | Windows | Windows 10 | Spanish | Alvaro100@@ |" width="1366"/>
+                <img src="f0708cacc248cf2954d38c5f484ea73f5d0dfde425429a488364077af1659003.png" title="  registration user step1" width="1366"/>
+                <img src="f0708cacc248cf2954d38c5f484ea73f5d0dfde425429a488364077af1659003.png" title="  clicks on Ingreso al mdulo de registro" width="1366"/>
+                <img src="8e51e05592d9b4da357bf33d5ee74794d1026bf95aae9cbc4f990dcc84de1353.png" title="  enters 'Alvaro Israel' into Ingreso de nombre" width="1366"/>
+                <img src="c3345ce57a16ac38bb7e2cf43edd3dfcc78b49ae65bdbabd3b119394ae4789ad.png" title="  enters 'Cabezas Rios' into Ingreso de apellido" width="1366"/>
+                <img src="cc27b1b0df1565edb623ffb6eb9ae99cd8a5a661482a902512c4dedd31733421.png" title="  enters 'aicabezas12322699@gmail.com' into Ingreso del email" width="1366"/>
+                <img src="d5f89d901021085384c1d99d227512e9322fe5fa8da1d7f6f2285ef69463de5a.png" title="  select May on Seleionar el mes" width="1366"/>
+                <img src="1da7d0043621e5258fd0bcf9fcc8659d99e234c4da4089616f82721d3af3f8e9.png" title="  select 4 on Seleionar el dia" width="1366"/>
+                <img src="3f516dbf8552ee89a9132c9753e42bc37305fc2a19e82c3f2805b8a644793b71.png" title="  select 2000 on Seleionar el a&Atilde;&plusmn;o" width="1366"/>
+                <img src="743a8374d60e3858169f4db1885d06b5a620c0c07e9899f5215b389ce37443b4.png" title="  enters 'spanish' into Ingresar idioma" width="1366"/>
+                <img src="d84daa2d3d6aae8ea85723a222d163f7cdffcd06aba1180be7d804b747b9c055.png" title="  types 'ENTER' in Ingresar idioma" width="1366"/>
+                <img src="a964933b179e822e9babaddd7eb5f2c8f53600c9a85e2b81a8d763b20b02ab2c.png" title="  clicks on Ingreso a la segundo paso del regsitro" width="1366"/>
+                <img src="a964933b179e822e9babaddd7eb5f2c8f53600c9a85e2b81a8d763b20b02ab2c.png" title="  registration user step1 (completed)" width="1366"/>
+                <img src="3bf44b70e1c93d631276934f4b05a9d6df08ccdb8abf8c51d1bbb1f742faf4d3.png" title="  registration user step2" width="1366"/>
+                <img src="3bf44b70e1c93d631276934f4b05a9d6df08ccdb8abf8c51d1bbb1f742faf4d3.png" title="  enters 'Bogot&aacute;' into Ingresar la ciudad" width="1366"/>
+                <img src="5b45723a14d5d5b78361cbe89b15839fbc2f0b7cab64651e58f6f702c012ebaa.png" title="  types 'ARROW_DOWN' in Ingresar la ciudad" width="1366"/>
+                <img src="2eb180e608af137edf059029cea2168854155605ebb98f8204bf9e70c78b8d2d.png" title="  clicks on Selecionar el pais" width="1366"/>
+                <img src="58454814170c1904f289024f6e9b6b7eb739f4d7acc37ccc39142f58e34dd475.png" title="  enters 'Colombia' into Ingresar el pais" width="1366"/>
+                <img src="19158c18dccba6ee0f11c110ac29da2ba29c36937aa147b8bef27b8d3479d19f.png" title="  types 'ENTER' in Ingresar el pais" width="1366"/>
+                <img src="f77081791345823d193eed58c984a10e3044b52abfeaccbf1fbf3fe56acb6cb9.png" title="  enters '111121' into Ingresar el codgo postal" width="1366"/>
+                <img src="ffeff87a44fcb1355f648ef6c040b327b85aed5468eaa02c616d990543eb3375.png" title="  clicks on ingreso a la tercer paso del regsitro" width="1366"/>
+                <img src="ffeff87a44fcb1355f648ef6c040b327b85aed5468eaa02c616d990543eb3375.png" title="  registration user step2 (completed)" width="1366"/>
+                <img src="1a740ff1334351c1cba8ffe25352e7251f50a4a566d2d0dad8d1803b373e781b.png" title="  registration user step3" width="1366"/>
+                <img src="1a740ff1334351c1cba8ffe25352e7251f50a4a566d2d0dad8d1803b373e781b.png" title="  clicks on Ingresar el computador" width="1366"/>
+                <img src="84f540efa6fd88b265711570fec3ef1bbff9ac81862df0e455232e70be4cca05.png" title="  enters 'Windows' into Ingresar el nombre del sistema operativo" width="1366"/>
+                <img src="936d51f08cbd577f8ff59aa9cd127b06b468cdf562911dd58a31ff76998418e8.png" title="  types 'ENTER' in Ingresar el nombre del sistema operativo" width="1366"/>
+                <img src="eaa9928cfa505c0ee666fc72e5c27262f36219dfbc763e24f640d0e7a1af43f7.png" title="  clicks on Ingresar la version del comptador" width="1366"/>
+                <img src="99405e0904fbbdace39683bc215003232b4ae2640950d22b28b99cd01f498544.png" title="  enters 'Windows 10' into Ingresar el nombre del sistema operativo" width="1366"/>
+                <img src="f145afa1eeaf600ed3d632f03a33493167b6ecd21ce7f57a356c4abb3aa83574.png" title="  types 'ENTER' in Ingresar el nombre del sistema operativo" width="1366"/>
+                <img src="1977c1b10cd275372143beb31ddf9e6b4786c802494c7b5a75dc203bdbd37c68.png" title="  clicks on Ingresar el lenguaje del computador" width="1366"/>
+                <img src="4d8d8a2ea424775f94afe951ddf4d6caeb3e80a4019ed9decd6b114f0fc88449.png" title="  enters 'Spanish' into Ingresar el nombre del lenguaje del computador" width="1366"/>
+                <img src="2aa4b1cfdf6473ba332731245ee5344118dc5cbb566652f07cf2b0c186adf6d6.png" title="  types 'ENTER' in Ingresar el nombre del lenguaje del computador" width="1366"/>
+                <img src="bc73690a5acf50fc5971f7189cfdd2b5e81505e25d5c55920310ed1be96c9eef.png" title="  clicks on ingreso a la cuarto paso del regsitro" width="1366"/>
+                <img src="bc73690a5acf50fc5971f7189cfdd2b5e81505e25d5c55920310ed1be96c9eef.png" title="  registration user step3 (completed)" width="1366"/>
+                <img src="54cf1ff0df9ac0b6983e1a5f68b6b7a4b6e0668493cba9d2e9d831a0fd540104.png" title="  registration user step4" width="1366"/>
+                <img src="54cf1ff0df9ac0b6983e1a5f68b6b7a4b6e0668493cba9d2e9d831a0fd540104.png" title="  enters 'Alvaro100@@' into Ingreso de la contrase&Atilde;&plusmn;a" width="1366"/>
+                <img src="095e99abc2741a10cc7757b10665a9e0960103a69cb5b3ca0e419eaa0803bb68.png" title="  enters 'Alvaro100@@' into Ingreso de la confirmacion de contrase&Atilde;&plusmn;a" width="1366"/>
+                <img src="f5bd2dc88178d1c848ada54f6df7c1a710d61004983ec2cd701afba8a770dead.png" title="  clicks on Selecion del check numero 1" width="1366"/>
+                <img src="0585dec2301a62132b1899f5146d13898d294be05662eacfb1997fbaba4cea68.png" title="  clicks on Selecion del check numero 2" width="1366"/>
+                <img src="b3d6055c52137ab82eeb312fca0a0d372ef5dc069aa8a4e08e34fc43132ee1ee.png" title="  clicks on Selecion del check numero 3" width="1366"/>
+                <img src="acad87c6896755825817459c229f8fba1af9709fcca82c202c7883df2589b215.png" title="  clicks on Boton para ingresar el usuario" width="1366"/>
+                <img src="5d747811103bb9c11d84aa978a4afc1b53c8e5faff314ac590d03678e25414fa.png" title="  registration user step4 (completed)" width="1366"/>
+                <img src="5d747811103bb9c11d84aa978a4afc1b53c8e5faff314ac590d03678e25414fa.png" title=" When enter all the appropriate data for user registration on the Utest platform
+| name | last_name | email | birth_month | birth_day | birth_year | languages | city | code_postal | country | computer | computer_version | computer_language | password |
+| Alvaro Israel | Cabezas Rios | aicabezas12322699@gmail.com | May | 4 | 2000 | spanish | Bogot&aacute; | 111121 | Colombia | Windows | Windows 10 | Spanish | Alvaro100@@ | (completed)" width="1366"/>
+                <img src="5d747811103bb9c11d84aa978a4afc1b53c8e5faff314ac590d03678e25414fa.png" title=" Then verify that the registration is complete: <span class='success-color'>SUCCESS</span>" width="1366"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.90</span>
+</div>
+</body>
+</html>
